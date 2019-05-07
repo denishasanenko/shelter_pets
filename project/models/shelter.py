@@ -2,7 +2,7 @@ from sqlalchemy import Column, String, Table, MetaData
 from sqlalchemy.dialects.postgresql import UUID
 
 metadata = MetaData()
-Shelters = Table(
+Shelter = Table(
     'shelters',
     metadata,
     Column('shelter_uuid', UUID, primary_key=True),
